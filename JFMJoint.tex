@@ -467,10 +467,26 @@ Therefore, the jet is entraining more core flow fluid near the nozzle exit which
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Forced Structures and Natural Structures}%%Lior-This doesn't have to be a subsubsection but should be addressed in this section
-As seen previously, the excited cases depict a well defined signature of the passage of the structures in the near-field pressure. This is due to the forcing process of the shear-layer which create well ordered spatio-temporal structures. For a baseline jet, 
+As seen previously, the excited cases depict a well defined signature of the passage of the structures in the near-field pressure. This is due to the forcing process of the shear-layer which create well ordered spatio-temporal structures. In a free-forcing case, it is impossible to appreciate a similar signature using a phase average. To overcome this issue, a wavelet-based technique was used in  order to detect energetic events in the signals. For consistency, the method was applied on all the cases, baseline and forced cases. 
 
 \subsubsection{Wavelet conditioning}
+The wavelet-based technique is well assessed as it was already used for structure identification in jets and other turbulent flows. This technique is using the so-called Local Intermittency Measure or LIM, introduced in 1992\cite{Farge1992} , which gives a local measure of the ratio between the local energy and the averaged energy in time for a specific scale. The LIM is expressed as:
+\begin{equation}
+\label{eqn:LIM}
+LIM = \frac{w(s, t)^{2}}{\left<w(s, t)^{2}\right>_{t}}
+\end{equation}
+where $w(s, t)^{2}$ is the local energy for a specific time and scale; and $\left< \bullet \right>_{t}$ represent the time average.
+The value of the LIM gives an indication about the energy content of the signal:
+\begin{itemize}
+\item a value smaller than unity represent a local energy content of lower energy than the average
+\item and a value greater than unity represent an energy content greater than the average
+\end{itemize}
+The nature of the LIM as an indicator of the intermittency makes it perfectly suitable for structures identification in turbulent flows. 
 
+\subsubsection{Structure identification}
+As seen in previous studies \cite{Camussi1997}\cite{Camussi1997b}\cite{Camussi2002} , the wavelet conditioning is perfectly suitable for coherent structure identification in natural jet as it gives the signature of the passage of these latter. It was never used yet in the case of forced jets. 
+
+The next set of figures shows the results of the wavelet conditioning for different experimental forcing parameters: baseline and for Strouhal of 0.05, 0.15 and 0.25. For the study of the baseline and low Strouhal number excitation, the conditioning present a well defined signature of the passage of coherent structures. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Connecting the Large Scale Structures to the Hydrodynamic Nearfield}
