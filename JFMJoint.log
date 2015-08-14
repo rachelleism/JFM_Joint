@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.10)  28 JUL 2015 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.10)  14 AUG 2015 17:00
 entering extended mode
 **JFMJoint.tex
 (JFMJoint.tex
@@ -721,162 +721,240 @@ Package pdftex.def Info: corrliplineMAchSt025.png used on input line 450.
 (pdftex.def)             Requested size: 216.8111pt x 190.7612pt.
  [13 <./M09St025qcritphase0106AB.png>] [14 <./Num_Phavg_x3D_lipline_corrected.p
 ng> <./Num_LnrPos_x3D_lipline_corrected.png> <./MachsST005x2and4liplineauto.png
-> <./MachsST015x2and4liplineauto.png> <./MachsST025x2and4liplineauto.png>] [15 
-<./corrliplineMAchSt005.png> <./corrliplineMAchSt015.png> <./corrliplineMAchSt0
-25.png>]
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 481.
-
-<M09phaseSt005fixed.png, id=116, 356.33125pt x 353.32pt>
+> <./MachsST015x2and4liplineauto.png> <./MachsST025x2and4liplineauto.png>]
+<M09phaseSt005fixed.png, id=110, 356.33125pt x 353.32pt>
 File: M09phaseSt005fixed.png Graphic file (type png)
 
 <use M09phaseSt005fixed.png>
-Package pdftex.def Info: M09phaseSt005fixed.png used on input line 497.
+Package pdftex.def Info: M09phaseSt005fixed.png used on input line 473.
 (pdftex.def)             Requested size: 180.6717pt x 179.14491pt.
 
-<M09phaseSt015fixed.png, id=117, 356.33125pt x 353.32pt>
+<M09phaseSt015fixed.png, id=111, 356.33125pt x 353.32pt>
 File: M09phaseSt015fixed.png Graphic file (type png)
 
 <use M09phaseSt015fixed.png>
-Package pdftex.def Info: M09phaseSt015fixed.png used on input line 498.
+Package pdftex.def Info: M09phaseSt015fixed.png used on input line 474.
 (pdftex.def)             Requested size: 180.6717pt x 179.14491pt.
 
-<M09phaseSt025.png, id=118, 1505.625pt x 1490.56876pt>
+<M09phaseSt025.png, id=112, 1505.625pt x 1490.56876pt>
 File: M09phaseSt025.png Graphic file (type png)
  <use M09phaseSt025.png>
-Package pdftex.def Info: M09phaseSt025.png used on input line 500.
+Package pdftex.def Info: M09phaseSt025.png used on input line 476.
 (pdftex.def)             Requested size: 180.6672pt x 178.86053pt.
 
 
-LaTeX Warning: Reference `compresscontrol' on page 16 undefined on input line 5
-13.
+LaTeX Warning: Reference `compresscontrol' on page 15 undefined on input line 4
+89.
 
-[16] [17 <./M09phaseSt005fixed.png> <./M09phaseSt015fixed.png> <./M09phaseSt025
-.png>] <M09M13autocorrarray1ST005.png, id=128, 1505.625pt x 1324.95pt>
+[15 <./corrliplineMAchSt005.png> <./corrliplineMAchSt015.png> <./corrliplineMAc
+hSt025.png>] [16 <./M09phaseSt005fixed.png> <./M09phaseSt015fixed.png> <./M09ph
+aseSt025.png>] <M09M13autocorrarray1ST005.png, id=125, 1505.625pt x 1324.95pt>
 File: M09M13autocorrarray1ST005.png Graphic file (type png)
 
 <use M09M13autocorrarray1ST005.png>
-Package pdftex.def Info: M09M13autocorrarray1ST005.png used on input line 561.
+Package pdftex.def Info: M09M13autocorrarray1ST005.png used on input line 537.
 (pdftex.def)             Requested size: 216.80524pt x 190.7886pt.
 
-<M09M13autocorrarray1ST015.png, id=129, 1505.625pt x 1324.95pt>
+<M09M13autocorrarray1ST015.png, id=126, 1505.625pt x 1324.95pt>
 File: M09M13autocorrarray1ST015.png Graphic file (type png)
 
 <use M09M13autocorrarray1ST015.png>
-Package pdftex.def Info: M09M13autocorrarray1ST015.png used on input line 562.
+Package pdftex.def Info: M09M13autocorrarray1ST015.png used on input line 538.
 (pdftex.def)             Requested size: 216.80524pt x 190.7886pt.
 
-<M09M13autocorrarray1ST025.png, id=130, 1505.625pt x 1324.95pt>
+<M09M13autocorrarray1ST025.png, id=127, 1505.625pt x 1324.95pt>
 File: M09M13autocorrarray1ST025.png Graphic file (type png)
 
 <use M09M13autocorrarray1ST025.png>
-Package pdftex.def Info: M09M13autocorrarray1ST025.png used on input line 564.
+Package pdftex.def Info: M09M13autocorrarray1ST025.png used on input line 540.
 (pdftex.def)             Requested size: 216.80524pt x 190.7886pt.
- [18] [19 <./M09M13autocorrarray1ST005.png> <./M09M13autocorrarray1ST015.png> <
+ [17] [18 <./M09M13autocorrarray1ST005.png> <./M09M13autocorrarray1ST015.png> <
 ./M09M13autocorrarray1ST025.png>]
-<M09M13crosscorrNE.png, id=141, 801.99625pt x 705.63625pt>
+<M09M13crosscorrNE.png, id=137, 801.99625pt x 705.63625pt>
 File: M09M13crosscorrNE.png Graphic file (type png)
 
 <use M09M13crosscorrNE.png>
-Package pdftex.def Info: M09M13crosscorrNE.png used on input line 590.
+Package pdftex.def Info: M09M13crosscorrNE.png used on input line 566.
 (pdftex.def)             Requested size: 216.8111pt x 190.7612pt.
 
-<M09M13crosscorrSt005.png, id=142, 801.99625pt x 705.63625pt>
+<M09M13crosscorrSt005.png, id=138, 801.99625pt x 705.63625pt>
 File: M09M13crosscorrSt005.png Graphic file (type png)
 
 <use M09M13crosscorrSt005.png>
-Package pdftex.def Info: M09M13crosscorrSt005.png used on input line 591.
+Package pdftex.def Info: M09M13crosscorrSt005.png used on input line 567.
 (pdftex.def)             Requested size: 216.8111pt x 190.7612pt.
 
-<M09M13crosscorrSt015.png, id=143, 1505.625pt x 1324.95pt>
+<M09M13crosscorrSt015.png, id=139, 1505.625pt x 1324.95pt>
 File: M09M13crosscorrSt015.png Graphic file (type png)
 
 <use M09M13crosscorrSt015.png>
-Package pdftex.def Info: M09M13crosscorrSt015.png used on input line 593.
+Package pdftex.def Info: M09M13crosscorrSt015.png used on input line 569.
 (pdftex.def)             Requested size: 216.80524pt x 190.7886pt.
 
-<M09M13crosscorrSt025.png, id=144, 1505.625pt x 1324.95pt>
+<M09M13crosscorrSt025.png, id=140, 1505.625pt x 1324.95pt>
 File: M09M13crosscorrSt025.png Graphic file (type png)
 
 <use M09M13crosscorrSt025.png>
-Package pdftex.def Info: M09M13crosscorrSt025.png used on input line 594.
+Package pdftex.def Info: M09M13crosscorrSt025.png used on input line 570.
 (pdftex.def)             Requested size: 216.80524pt x 190.7886pt.
- [20 <./M09M13crosscorrNE.png> <./M09M13crosscorrSt005.png> <./M09M13crosscorrS
+ [19 <./M09M13crosscorrNE.png> <./M09M13crosscorrSt005.png> <./M09M13crosscorrS
 t015.png> <./M09M13crosscorrSt025.png>]
-<Num_FFx1_phavg.png, id=152, 430.7292pt x 324.9741pt>
+
+LaTeX Warning: Citation `Guj1999' on page 20 undefined on input line 613.
+
+
+LaTeX Warning: Citation `Guj2003' on page 20 undefined on input line 613.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 622--628
+
+ []
+
+[20] <figures/png/Exp/BaselineModified.png, id=152, 1300.86pt x 712.8231pt>
+File: figures/png/Exp/BaselineModified.png Graphic file (type png)
+
+<use figures/png/Exp/BaselineModified.png>
+Package pdftex.def Info: figures/png/Exp/BaselineModified.png used on input lin
+e 639.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Exp/St005Modified.png, id=153, 1300.86pt x 712.8231pt>
+File: figures/png/Exp/St005Modified.png Graphic file (type png)
+
+<use figures/png/Exp/St005Modified.png>
+Package pdftex.def Info: figures/png/Exp/St005Modified.png used on input line 6
+40.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Exp/St015Modified.png, id=154, 1300.86pt x 712.8231pt>
+File: figures/png/Exp/St015Modified.png Graphic file (type png)
+
+<use figures/png/Exp/St015Modified.png>
+Package pdftex.def Info: figures/png/Exp/St015Modified.png used on input line 6
+42.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Exp/St025Modified.png, id=155, 1300.86pt x 712.8231pt>
+File: figures/png/Exp/St025Modified.png Graphic file (type png)
+
+<use figures/png/Exp/St025Modified.png>
+Package pdftex.def Info: figures/png/Exp/St025Modified.png used on input line 6
+43.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+ [21 <./figures/png/Exp/BaselineModified.png (PNG copy)> <./figures/png/Exp/St0
+05Modified.png (PNG copy)> <./figures/png/Exp/St015Modified.png (PNG copy)> <./
+figures/png/Exp/St025Modified.png (PNG copy)>] <figures/png/Num/BaselineModifie
+d.png, id=159, 1300.86pt x 712.8231pt>
+File: figures/png/Num/BaselineModified.png Graphic file (type png)
+
+<use figures/png/Num/BaselineModified.png>
+Package pdftex.def Info: figures/png/Num/BaselineModified.png used on input lin
+e 655.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Num/St005Modified.png, id=160, 1300.86pt x 712.8231pt>
+File: figures/png/Num/St005Modified.png Graphic file (type png)
+
+<use figures/png/Num/St005Modified.png>
+Package pdftex.def Info: figures/png/Num/St005Modified.png used on input line 6
+56.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Num/St015Modified.png, id=161, 1300.86pt x 712.8231pt>
+File: figures/png/Num/St015Modified.png Graphic file (type png)
+
+<use figures/png/Num/St015Modified.png>
+Package pdftex.def Info: figures/png/Num/St015Modified.png used on input line 6
+58.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<figures/png/Num/St025Modified.png, id=162, 1300.86pt x 712.8231pt>
+File: figures/png/Num/St025Modified.png Graphic file (type png)
+
+<use figures/png/Num/St025Modified.png>
+Package pdftex.def Info: figures/png/Num/St025Modified.png used on input line 6
+59.
+(pdftex.def)             Requested size: 216.79623pt x 118.7963pt.
+
+<Num_FFx1_phavg.png, id=163, 430.7292pt x 324.9741pt>
 File: Num_FFx1_phavg.png Graphic file (type png)
  <use Num_FFx1_phavg.png>
-Package pdftex.def Info: Num_FFx1_phavg.png used on input line 645.
+Package pdftex.def Info: Num_FFx1_phavg.png used on input line 683.
 (pdftex.def)             Requested size: 234.87749pt x 177.20903pt.
 
-<Num_FFx1_LnrPos.png, id=153, 431.4519pt x 271.2534pt>
+<Num_FFx1_LnrPos.png, id=164, 431.4519pt x 271.2534pt>
 File: Num_FFx1_LnrPos.png Graphic file (type png)
 
 <use Num_FFx1_LnrPos.png>
-Package pdftex.def Info: Num_FFx1_LnrPos.png used on input line 646.
+Package pdftex.def Info: Num_FFx1_LnrPos.png used on input line 684.
 (pdftex.def)             Requested size: 234.88316pt x 147.6708pt.
+ [22 <./figures/png/Num/BaselineModified.png (PNG copy)> <./figures/png/Num/St0
+05Modified.png (PNG copy)> <./figures/png/Num/St015Modified.png (PNG copy)> <./
+figures/png/Num/St025Modified.png (PNG copy)>]
 
+LaTeX Warning: Reference `tab:coreconvec' on page 23 undefined on input line 69
+0.
 
-LaTeX Warning: Reference `tab:coreconvec' on page 21 undefined on input line 65
-2.
-
-<2ptcorrarray1x20dr9dNE.png, id=154, 449.68pt x 336.457pt>
+<2ptcorrarray1x20dr9dNE.png, id=168, 449.68pt x 336.457pt>
 File: 2ptcorrarray1x20dr9dNE.png Graphic file (type png)
 
 <use 2ptcorrarray1x20dr9dNE.png>
-Package pdftex.def Info: 2ptcorrarray1x20dr9dNE.png used on input line 657.
+Package pdftex.def Info: 2ptcorrarray1x20dr9dNE.png used on input line 695.
 (pdftex.def)             Requested size: 234.8779pt x 175.739pt.
 
-<2ptcorrarray1x20dr9dST005.png, id=155, 449.68pt x 336.457pt>
+<2ptcorrarray1x20dr9dST005.png, id=169, 449.68pt x 336.457pt>
 File: 2ptcorrarray1x20dr9dST005.png Graphic file (type png)
 
 <use 2ptcorrarray1x20dr9dST005.png>
-Package pdftex.def Info: 2ptcorrarray1x20dr9dST005.png used on input line 658.
+Package pdftex.def Info: 2ptcorrarray1x20dr9dST005.png used on input line 696.
 (pdftex.def)             Requested size: 234.8779pt x 175.739pt.
 
-<2ptcorrarray1x20dr9dST025.png, id=156, 449.68pt x 337.26pt>
+<2ptcorrarray1x20dr9dST025.png, id=170, 449.68pt x 337.26pt>
 File: 2ptcorrarray1x20dr9dST025.png Graphic file (type png)
 
 <use 2ptcorrarray1x20dr9dST025.png>
-Package pdftex.def Info: 2ptcorrarray1x20dr9dST025.png used on input line 660.
+Package pdftex.def Info: 2ptcorrarray1x20dr9dST025.png used on input line 698.
 (pdftex.def)             Requested size: 234.8779pt x 176.15842pt.
- [21]
-<MaxcorrSt005M09.png, id=160, 1505.625pt x 745.78625pt>
+
+<MaxcorrSt005M09.png, id=171, 1505.625pt x 745.78625pt>
 File: MaxcorrSt005M09.png Graphic file (type png)
 
 <use MaxcorrSt005M09.png>
-Package pdftex.def Info: MaxcorrSt005M09.png used on input line 671.
+Package pdftex.def Info: MaxcorrSt005M09.png used on input line 709.
 (pdftex.def)             Requested size: 231.25586pt x 114.54874pt.
 
-<MaxcorrSt015M09.png, id=161, 1505.625pt x 745.78625pt>
+<MaxcorrSt015M09.png, id=172, 1505.625pt x 745.78625pt>
 File: MaxcorrSt015M09.png Graphic file (type png)
 
 <use MaxcorrSt015M09.png>
-Package pdftex.def Info: MaxcorrSt015M09.png used on input line 672.
+Package pdftex.def Info: MaxcorrSt015M09.png used on input line 710.
 (pdftex.def)             Requested size: 231.25586pt x 114.54874pt.
 
-<MaxcorrSt025M09.png, id=162, 1505.625pt x 745.78625pt>
+<MaxcorrSt025M09.png, id=173, 1505.625pt x 745.78625pt>
 File: MaxcorrSt025M09.png Graphic file (type png)
 
 <use MaxcorrSt025M09.png>
-Package pdftex.def Info: MaxcorrSt025M09.png used on input line 674.
+Package pdftex.def Info: MaxcorrSt025M09.png used on input line 712.
 (pdftex.def)             Requested size: 231.25586pt x 114.54874pt.
- [22 <./Num_FFx1_phavg.png> <./Num_FFx1_LnrPos.png>]
-[23 <./2ptcorrarray1x20dr9dNE.png (PNG copy)> <./2ptcorrarray1x20dr9dST005.png 
-(PNG copy)> <./2ptcorrarray1x20dr9dST025.png (PNG copy)>] (JFMJoint.bbl
-[24 <./MaxcorrSt005M09.png> <./MaxcorrSt015M09.png> <./MaxcorrSt025M09.png>]
-[25]) 
+ [23 <./Num_FFx1_phavg.png> <./Num_FFx1_LnrPos.png>]
+[24 <./2ptcorrarray1x20dr9dNE.png (PNG copy)> <./2ptcorrarray1x20dr9dST005.png 
+(PNG copy)> <./2ptcorrarray1x20dr9dST025.png (PNG copy)>] [25 <./MaxcorrSt005M0
+9.png> <./MaxcorrSt015M09.png> <./MaxcorrSt025M09.png>] (JFMJoint.bbl [26])
+
 AED: lastpage setting LastPage
-[26] (JFMJoint.aux)
+[27] (JFMJoint.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5203 strings out of 493671
- 79243 string characters out of 3143865
- 150366 words of memory out of 3000000
- 8388 multiletter control sequences out of 15000+200000
+ 5244 strings out of 493671
+ 80656 string characters out of 3143865
+ 149366 words of memory out of 3000000
+ 8423 multiletter control sequences out of 15000+200000
  73175 words of font info for 60 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  44i,11n,47p,2499b,410s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -900,9 +978,9 @@ blic/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/lm/lmsy8.pfb>
-Output written on JFMJoint.pdf (26 pages, 7889798 bytes).
+Output written on JFMJoint.pdf (27 pages, 15243479 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
+ 271 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
