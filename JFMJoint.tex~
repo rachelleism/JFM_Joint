@@ -244,7 +244,7 @@ Phase-averaged data were also computed for each of the simulations.
  The variations due to grid resolution are depicted in Figures \ref{meangridM09} and \ref{meangridrmsM09} for both Mach numbers. Figure \ref{meangridM09} depicts the mean axial velocity along the centerline. Figure \ref{meangridM09} compares the three grids for the Mach 0.9 case with axisymmetric excitation. The three grids, are relatively similar although G1 has a slightly higher decay rate after the potential core. However, grids G2 and G3 exhibit the same decay rate after the potential core for the extent plotted. 
 \begin{figure}
 \begin{center}
-\includegraphics[width=3.2in]{gridstudyM09meancenter.png}\label{meangridM09}
+{\includegraphics[width=3.2in]{gridstudyM09meancenter.png}\label{meangridM09}}
 \caption{Grid convergence of the mean axial velocity along the centerline of the Mach 0.9, $m=0$, $St=0.15$ case}
 \end{center}
  \end{figure}
@@ -464,15 +464,9 @@ The convective velocities of each case and axial position were computed from Fig
 The jet is consistently increasing in convective velocity with axial distance for each case.
 Therefore, the jet is entraining more core flow fluid near the nozzle exit which increases the convective velocity. Further downstream, the ratios indicate that the entrainment is more evenly distributed between the high speed side and the low speed side.
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Forced Structures and Natural Structures}%%Lior-This doesn't have to be a subsubsection but should be addressed in this section
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Connecting the Large Scale Structures to the Hydrodynamic Nearfield}
-The coherent structures presented previously in Section \ref{structure} cause disturbances in the near field that can be seen in the near field pressure data.
+\subsection{Connecting the Large Scale Structures to the Hydrodynamic Near-field}
+The coherent structures presented previously in Section \ref{structure} cause disturbances in the near-field that can be seen in the near field pressure data.
 \begin{figure}
 \begin{center}
 \begin{centering}
@@ -610,6 +604,72 @@ The velocity of the waveforms surrounding the jet can be computed from the corre
 %Near the nozzle exit, the velocity of the waves in the near field increase with excitation frequency for the supersonic case and decrease for the subsonic case. 
 %???put in citation here for exponential decay
 %%%%WHAT DO THESE TRENDS MEAN????? Describe more in previous section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Forced Structures and Natural Structures}%%Lior-This doesn't have to be a subsubsection but should be addressed in this section
+As seen previously, the Strouhal 0.05 case depicts a well defined signature of the passage of the structures in the near-field pressure. This signature is obtained using a phase--average technique. For Strouhal 0.15 and higher the signature of the passage is a quasi--sinusoidal. This is due to the increasing interaction between successive structures. In a free-forcing case, it is impossible to appreciate a similar signature using a phase--average technique. To overcome this issue, a wavelet--based technique was applied to the database in order to extract the signature of the passage of structures. For consistency, the method was applied to the two databases (experimental and numerical) and to all the different excitation cases (St = 0, 0.02, 0.05, 0.15, 0.25, 0.35 and 0.50). Nevertheless, different parameters were used for the numerical and experimental databases due to differences in fluctuation levels.
+
+\subsubsection{Wavelet conditioning}
+The wavelet--based technique used is already well assessed for structure identification in jets and other turbulent flows $^{[}$\cite{Camussi1997}$^{,}$ \cite{Camussi1997b}$^{,}$ \cite{Guj1999}$^{,}$ \cite{Camussi2002}$^{,}$ \cite{Guj2003}$^{]}$. The technique is based on the use of the so--called Local Intermittency Measure or LIM, introduced in 1992$^{[}$\cite{Farge1992}$^{]}$, which gives a local measure of the ratio between the local energy and the averaged energy in time for a specific scale. It is already demonstrated that the LIM is a well suited indicator for coherent structures identification (see previous references). The LIM is expressed as:
+\begin{equation}
+\label{eqn:LIM}
+LIM = \frac{w(s, t)^{2}}{\left<w(s, t)^{2}\right>_{t}}
+\end{equation}
+where $w(s, t)^{2}$ is the local energy for a specific time and scale; and $\left< \bullet \right>_{t}$ represent a time average.
+The value of the LIM gives an indication about the variation of the fluctuation of the energy and by selecting a proper threshold $T$  [\ref{eqn:thresholdLIM}] it is possible to select the most energetic events from the signal.
+\begin{equation} \label{eqn:thresholdLIM}
+LIM(s, t) > T
+\end{equation}
+where $(s, t)$ must represent the position of a peak/energetic event in the wavelet domain with its LIM value greater than $T$.
+The value of the suited threshold was selected after analysing both databases with a set of different thresholds and selecting the one we thought was the most appropriate regarding the results obtained with it. The threshold value for the numerical database is of 2 while its value is of 5 for the experimental database. \\
+In order to improve the results obtained with the technique a second filtering was applied. Peaks with an absolute value smaller than $1.5\sigma$ were discarded from the analysis. The aim of this second filtering is to get rid of smaller peaks. It allows to get a signature with a higher maximum value. \\
+To get the signature of the structures it is needed to do an ensemble average [\ref{eqn:ensembleAverage}] of the energetic events detected. The previous procedure allows us to find the times at which the events are occurring in the signal. The ensemble--average is done over a set of windows selected around the energetic events times.
+\begin{equation} \label{eqn:ensembleAverage}
+<p> = \frac{1}{N_{e}} \sum_{i=1}^{N_{e}} p\left(\xi_{i} \right), \hspace{1cm} \xi_{i} = \left[ t_{i}-\frac{W}{2}, t_{i}+\frac{W}{2}\right] = \{ t \in \xi_{i} | t_{i}-\frac{W}{2} \leq t \leq t_{i}+\frac{W}{2}\}
+\end{equation}
+where $t_{i}$ are the times or indices of the energetic events; $N_{e}$ is the number of events and $W$ is the size of the window (in time or number of samples) selected around the times of the energetic events.
+The selection of the peaks is done on a single signal while the ensemble--average is done over all the signal of the near--field array (called cross--conditioning).\\
+
+The reader willing to have more information on the wavelet transform can read the paper of Farge $^{[}$\cite{Farge1992}$^{]}$.
+
+\subsubsection{Structure identification}
+As seen in previous studies $^{[}$\cite{Camussi1997}$^{,}$ \cite{Camussi1997b}$^{,}$ \cite{Camussi2002}$^{]}$, the wavelet--conditioning is perfectly suitable for coherent structure identification in natural jet as it allows to extract their signature from the pressure near-field. The technique was not yet used for structure identification for forced jets. The interest in using the technique in our current study is to be able to compare natural and forced jet signatures.
+
+The wavelet--conditioning was used on an experimental and numerical databases. Only four cases are presented here (St = 0, 0.05, 0.15 and 0.25) on a total of seven cases. The next set of figures depicts the results obtained with the wavelet--conditioning for the experimental database. The natural jet present a similar signature to the low Strouhal forced jet ($St = 0.05$). For forcing equal or greater than 0.15, the signature depicts an quasi--sinusoidal behaviour.
+
+\begin{figure}[h!]
+\begin{center}
+\begin{centering}
+\subfloat[M=0.9, St=0.00]{\includegraphics[width=3in]{figures/png/Exp/BaselineModified}}%fixed
+\subfloat[M=0.9, St=0.05]{\includegraphics[width=3in]{figures/png/Exp/St005Modified}}%fixed
+
+\subfloat[M=0.9, St=0.15]{\includegraphics[width=3in]{figures/png/Exp/St015Modified}}%fixed
+\subfloat[M=0.9, St=0.25]{\includegraphics[width=3in]{figures/png/Exp/St025Modified}}%fixed
+\end{centering}
+\caption{Wavelet--conditioning of the experimental database, $Array~1$}
+\label{fig:experimentalConditioning}
+\end{center}
+\end{figure}
+
+The next set of figures was obtained using the numerical database. The natural jet and the forced at Strouhal 0.05 have a pretty similar signature while, as for the experimental results, forcing at Strouhal equal or greater than 0.15 have a quasi--sinusoidal signature.
+
+\begin{figure}[h!]
+\begin{center}
+\begin{centering}
+\subfloat[M=0.9, St=0.00]{\includegraphics[width=3in]{figures/png/Num/BaselineModified}}%fixed
+\subfloat[M=0.9, St=0.05]{\includegraphics[width=3in]{figures/png/Num/St005Modified}}%fixed
+
+\subfloat[M=0.9, St=0.15]{\includegraphics[width=3in]{figures/png/Num/St015Modified}}%fixed
+\subfloat[M=0.9, St=0.25]{\includegraphics[width=3in]{figures/png/Num/St025Modified}}%fixed
+\end{centering}
+\caption{Wavelet--conditioning of the numerical database, $Array~1$}
+\label{fig:numericalConditioning}
+\end{center}
+\end{figure}
+
+There is some small difference between the results of the experimental database and the numerical database but globally the results seem to coincide. The main reason for the small differences is the number of events detected: the numerical time-length is far shorter than the experimental one and so less events are produced and detected. The average is then done on a far smaller number of events for the numerical database.
+
+We can see on the two previous set of figures (\ref{fig:experimentalConditioning} and \ref{fig:numericalConditioning}) that the natural jet present a similar signature to the low Strouhal excitation ($St = 0.05$ and below). This is seen for both databases. The low Strouhal excitation seems to be a more suitable case to study natural jet structures as they seem to be similar. Higher Strouhal excitation seems to be less suitable as the interaction between successive structures is stronger and the signature is then quasi--sinusoidal. Nevertheless, higher Strouhal excitation are important for controlling the jet behaviour for increasing shear--layer mitigation as a way of reducing the noise.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Acoustic and Hydrodynamic Decomposition of the Nearfield}
