@@ -310,24 +310,19 @@ Phase-averaged data were also computed for each of the simulations.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Grid Resolution Study}
- The variations due to grid resolution are depicted in Figures \ref{meangridM09} and \ref{meangridrmsM09} for both Mach numbers. Figure \ref{meangridM09} depicts the mean axial velocity along the centerline. Figure \ref{meangridM09} compares the three grids for the Mach 0.9 case with axisymmetric excitation. The three grids, are relatively similar although G1 has a slightly higher decay rate after the potential core. However, grids G2 and G3 exhibit the same decay rate after the potential core for the extent plotted. 
+ The variations due to grid resolution are depicted in Figure \ref{meangridM09}. Figure \ref{meangridM09}a depicts the mean axial velocity along the centerline. Figure \ref{meangridM09}a compares the three grids for the Mach 0.9 case with axisymmetric excitation. The three grids, are relatively similar although G1 has a slightly higher decay rate after the potential core. However, grids G2 and G3 exhibit the same decay rate after the potential core for the extent plotted. 
 \begin{figure}
 \begin{center}
-{\includegraphics[width=3.2in]{gridstudyM09meancenter.png}\label{meangridM09}}
-\caption{Grid convergence of the mean axial velocity along the centerline of the Mach 0.9, $m=0$, $St=0.15$ case}
+\subfloat[Mean centerline axial velocity]{\includegraphics[width=3.2in]{gridstudyM09meancenter.png}\label{meangridM09}}
+\subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{gridstudyM09rmscenter.png}}
+\caption{Grid convergence along the centerline of the Mach 0.9, $m=0$, $St=0.15$ case\label{meangridM09}}
 \end{center}
  \end{figure}
 
-Figure \ref{meangridrmsM09} depicts the root-mean-square (RMS) fluctuating axial velocity along the centerline of the jet. The relative shape and amplitude of the fluctuating velocities is the same for each grid. Therefore, there is a very small
+Figure \ref{meangridM09}b depicts the root-mean-square (RMS) fluctuating axial velocity along the centerline of the jet. The relative shape and amplitude of the fluctuating velocities is the same for each grid. Therefore, there is a very small
 effect in terms of the principal coherent features and jet core
 length, but modest sensitivity was evident. This is to be expected in implicit large eddy simulation in which no subgrid model is used. Due to the concern of nearfield wave propogation grid G3 will be used. 
-\begin{figure}
-\begin{center}
-{\includegraphics[width=3.2in]{gridstudyM09rmscenter.png}
-\label{meangridrmsM09}}
-\caption{Grid convergence of the RMS fluctuating axial velocity along the centerline of the Mach 0.9, $m=0$ $St=0.15$ case}
-\end{center}
- \end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Numerical Validation}
