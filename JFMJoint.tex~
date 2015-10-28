@@ -314,7 +314,7 @@ Phase-averaged data were also computed for each of the simulations.
 \begin{figure}
 \begin{center}
 \subfloat[Mean centerline axial velocity]{\includegraphics[width=3.2in]{gridstudyM09meancenter.png}\label{meangridM09}}
-\subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{gridstudyM09rmscenter.png}
+\subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{gridstudyM09rmscenter.png}}
 \caption{Grid convergence along the centerline of the Mach 0.9, $m=0$, $St=0.15$ case\label{meangridM09}}
 \end{center}
  \end{figure}
@@ -427,7 +427,7 @@ For the $St=0.05$ cases (Fig. \ref{fig:isolevels05}), the A' and A structures ar
 \end{center}
 \end{figure}
 
-For the high frequency cases, rollers develop due to the excitation and these rollers grow and interact with other actuator induced structures as they propagate downstream. This has been shown experimentally by Sinha \etal \cite{sinha2013}. The structures that are produced in phase $\phi=0.6(2\pi)$ of Figs. \ref{fig:isolevels15} and \ref{fig:isolevels} are the same as the impulse response structures in Fig. \ref{fig:isolevels05} but as the structures grow and propagate downstream they interact with the previously created actuated structure. The structures seen in Fig. \ref{fig:isolevels05} are labeled in Figs. \ref{fig:isolevels15} and \ref{fig:isolevels} for comparison. Structures B and B' are equivalent to A and A' respectively and belong to the previous/subsequent actuator pulse. 
+For the high frequency cases, rollers develop due to the excitation and these rollers grow and interact with other actuator induced structures as they propagate downstream. These rollers have been shown experimentally by Samimy \cite{sm2007} and their nearfield interactions were documented by Sinha \etal \cite{sinha2013}. The structures that are produced in phase $\phi=0.6(2\pi)$ of Figs. \ref{fig:isolevels15} and \ref{fig:isolevels} are the same as the impulse response structures in Fig. \ref{fig:isolevels05} but as the structures grow and propagate downstream they interact with the previously created actuated structure. The structures seen in Fig. \ref{fig:isolevels05} are labeled in Figs. \ref{fig:isolevels15} and \ref{fig:isolevels} for comparison. Structures B and B' are equivalent to A and A' respectively and belong to the previous/subsequent actuator pulse. 
 Figure \ref{fig:isolevels15} depicts the $St=0.15$ cases in which the structures start to interact around an axial distance of 4D. In phase $\phi=0.1(2\pi)$, the characteristic structures seen in Fig. \ref{fig:isolevels05} are seen. Half a phase later A' is broken up close to $x/D=4$ while the ill formed B structure is colliding into the remains of A'. B' and B are similar structures to the ones denoted in the impulse case (Fig. \ref{fig:isolevels05}) however structure B is not as well formed as structure A. While, B' is more robust than the previous A' structure. This indicates a degree of feedback response of the structures between each excitation pair. %%%%%%%DOES IT?? HOW DO I CHECK????
 % % % % % %[I'm not sure you can check this in the phase-averaged results. My inclination would be to look at the time-resolved data] - MC
 \begin{figure}
@@ -441,7 +441,7 @@ Figure \ref{fig:isolevels15} depicts the $St=0.15$ cases in which the structures
 \end{figure}
 
 Figure \ref{fig:isolevels} depicts the isolevels of the high frequency ($St=0.25$) case in which the structures are interacting by an axial distance of $2D$.
-Since, the reaction to the actuation is cyclic the structures seen at the end of the potential core in one phase ($\phi=0.1(2\pi)$) begin to develop in the other phase. Structure B/A' in phase $\phi=0.1(2\pi)$ occurs when structure B collides into structure A'. This compression occurs due to the high convective velocity of B compared to A'. This interaction is quasi-linear creating a sine-like response in the near field pressure through linear superpositioning of the two actuator structures (B and A'). This quasi-linear superpositioning was also seen in Sinha \etal \cite{sinha2013} and Crawley \etal \cite{Crawley2014}. This will be discussed further later in reference to Fig. \ref{NUM_Phase_AVG_lip}.
+Since, the reaction to the actuation is cyclic the structures seen at the end of the potential core in one phase ($\phi=0.1(2\pi)$) begin to develop in the other phase. Structure B/A' in phase $\phi=0.1(2\pi)$ occurs when structure B collides into structure A'. This compression occurs due to the high convective velocity of B compared to A'. This interaction is quasi-linear creating a sine-like response in the near field pressure through linear superpositioning of the two actuator structures (B and A'). This quasi-linear superpositioning was also seen in Sinha \etal \cite{sinha2013} in the hydrodynamically dominant nearfield. This will be discussed further later in reference to Fig. \ref{NUM_Phase_AVG_lip}.
 \begin{figure}
 \begin{center}
 \begin{centering}
@@ -485,8 +485,9 @@ While the linear superposition does produce a secondary compression peak, it is 
 	}\subfloat[Linear superposition of the impulse response with St=0.25 waveform]{\includegraphics[width=3.25in]{Num_LnrPos_x3D_lipline_corrected.png}
 }\caption{Lipline waveforms and superposed waveforms at $x/D = 3$, $r/D = 0.5$ for Mach 0.9}\label{NUM_Phase_AVG_lip}
 \end{figure}
+%???USE A DIFFERENT AXIAL LOCATION OR SEVERAL? Nonlinearties become more prevalent downstream (noise producing region) 
 
-Looking at the autocorrelations of the nearfield points along the lipline can confirm the visual findings of the coherence of the structures in Figs. \ref{fig:isolevels05}-\ref{fig:isolevels}. 
+The development and decay of the structures can be further analyzed from correlations. Looking at the autocorrelations of the points along the lipline can confirm the visual findings of the coherence of the structures in Figs. \ref{fig:isolevels05}-\ref{fig:isolevels}. 
 Therefore, Fig. \ref{coherenceMach} depicts the autocorrelations of pressure at x/D=2 and 4 on the lipline. 
 At $x/D=2$, the subsequent correlation peaks located at every excitation period increase in amplitude with increasing excitation frequency. This higher correlation value indicates a higher coherence in time at this spatial location. 
 Further downstream (x/D=4), the subsequent correlation peaks are lower at all excitation frequencies than the upstream location indicating lower temporal coherence at this axial position. 
@@ -495,10 +496,10 @@ The bumpy appearance of the coherent structures (Figs. \ref{fig:isolevels05,fig:
 %%%INTEGRAL TIME SCALES FROM AUTOCORRELATIONS?????????
 \begin{figure} 
 \begin{centering}
-\subfloat[St=0.05]{\includegraphics[width=3in]{MachsST005x2and4liplineauto}} %fixed
-\subfloat[St=0.15]{\includegraphics[width=3in]{MachsST015x2and4liplineauto}} %fixed
+\subfloat[St=0.05]{\includegraphics[width=3in]{Mach09ST005liplineauto}} %fixed
+\subfloat[St=0.15]{\includegraphics[width=3in]{Mach09ST015liplineauto}} %fixed
 
-\subfloat[St=0.25]{\includegraphics[width=3in]{MachsST025x2and4liplineauto}} %fixed
+\subfloat[St=0.25]{\includegraphics[width=3in]{Mach09ST025x2and4liplineauto}} %fixed
 \end{centering}
 \caption{Auto-correlation of the lipline pressure}\label{coherenceMach}
 \end{figure}
@@ -509,10 +510,10 @@ The convective velocities of each case and axial position were computed from Fig
  %%%%%%%%%%%MAYBE NOT!!!!??? Check correlations shouldnt the a subsonic be slower at the end of the potential core due to all that extra entrainment?
 \begin{figure} 
 \begin{centering}
-\subfloat[St=0.05]{\includegraphics[width=3in]{corrliplineMAchSt005}} %fixed
-\subfloat[St=0.15]{\includegraphics[width=3in]{corrliplineMAchSt015}} %fixed
+\subfloat[St=0.05]{\includegraphics[width=3in]{corrliplineMAch09St005}} %fixed
+\subfloat[St=0.15]{\includegraphics[width=3in]{corrliplineMAch09St015}} %fixed
 
-\subfloat[St=0.25]{\includegraphics[width=3in]{corrliplineMAchSt025}} %fixed
+\subfloat[St=0.25]{\includegraphics[width=3in]{corrliplineMAch09St025}} %fixed
 \end{centering}
 \caption{Two point correlations of the lipline pressure}\label{liplineconvec}
 \end{figure}
@@ -526,7 +527,7 @@ The convective velocities of each case and axial position were computed from Fig
 	\captionof{table}{Convective velocities from two-point correlations on the lipline}
 	\label{tab:nearnozzleconvec}
 \end{center}
-The jet is consistently increasing in convective velocity with axial distance for each case.
+The jet is consistently increasing in convective velocity with axial distance for each case upstream of the end of the potential core.
 Therefore, the jet is entraining more core flow fluid near the nozzle exit which increases the convective velocity. Further downstream, the ratios indicate that the entrainment is more evenly distributed between the high speed side and the low speed side.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -535,10 +536,10 @@ The coherent structures presented previously in Section \ref{structure} cause di
 \begin{figure}
 \begin{center}
 \begin{centering}
-\subfloat[M=0.9, St=0.05]{\includegraphics[width=2.5in]{M09phaseSt005fixed}}%fixed
-\subfloat[M=0.9, St=0.15]{\includegraphics[width=2.5in]{M09phaseSt015fixed}}%fixed
+\subfloat[St=0.05]{\includegraphics[width=2.5in]{M09phaseSt005fixed}}%fixed
+\subfloat[St=0.15]{\includegraphics[width=2.5in]{M09phaseSt015fixed}}%fixed
 
-\subfloat[M=0.9, St=0.25]{\includegraphics[width=2.5in]{M09phaseSt025}}%fixed
+\subfloat[St=0.25]{\includegraphics[width=2.5in]{M09phaseSt025}}%fixed
 \end{centering}
 \caption{Phase-averaged pressure waveforms of $Array~1$}
 \label{fig:phaseaxialbothM}
@@ -568,14 +569,14 @@ $0.1(2\pi)$ phase in Fig.~\ref{fig:isolevels05} has just passed the axial
 distance of $x/D=5$ (viewing range of the iso-level structures) at the
 $\phi=0.6(2\pi)$ phase leaving the axial point in the top of the secondary compression peak. This corresponds to the smaller secondary peak at
 $x/D=5$ at $216^o$ in Figs.~\ref{fig:phaseaxialbothM}a and b.
+%???Convective velocities as a function of frequencies
 
 For $St=0.15$, the phase averaged signal at axial positions shown in
 Figs.~\ref{fig:phaseaxialbothM}c and d, indicates that the ``quiet'' time between
 pulses becomes shorter with downstream distance of the probe.  This
 also corresponds with the increasing size of the structures in the jet. At an
 axial distance of $x/D=4$, the horizontal neutral part of the phases
-is minimal, suggesting that the subsequent structure interaction is occuring. This location also has the
-highest amplitude phase averaged wave for the supersonic case.  Correlating to
+is minimal, suggesting that the subsequent structure interaction is occuring.  Correlating to
 Fig.~\ref{fig:isolevels15} for the $St=0.15$ case, the $x/D=4$ location at 
 $0.1(2\pi)=36^\circ$ phase shows a large dilation wave associated with
 a well-developed roller. Clearly, the growth of the rings with
@@ -628,11 +629,11 @@ The high frequency cases in Fig. \ref{Autocorrel}c, exhibit a sine-pattern insid
 %?????????????REDO PLOTS SO THE upstream peaks are on the left side of zero and the downstream peaks on the right side of zero!!!!!!!!!!!!
 \begin{figure} 
 \begin{centering}
-\subfloat[No control]{\includegraphics[width=3in]{M09M13crosscorrNE}}%WHAT IS WRONG WITH THE SUPERSONIC CASE??
-\subfloat[St=0.05]{\includegraphics[width=3in]{M09M13crosscorrSt005}}
+\subfloat[No control]{\includegraphics[width=3in]{M09crosscorrNE}}
+\subfloat[St=0.05]{\includegraphics[width=3in]{M09crosscorrSt005}}
 
-\subfloat[St=0.15]{\includegraphics[width=3in]{M09M13crosscorrSt015}}
-\subfloat[St=0.25]{\includegraphics[width=3in]{M09M13crosscorrSt025}}
+\subfloat[St=0.15]{\includegraphics[width=3in]{M09crosscorrSt015}}
+\subfloat[St=0.25]{\includegraphics[width=3in]{M09crosscorrSt025}}
 \end{centering}
 \caption{Two-point correlation of the near field pressure for the first array with x/D=2 and r/D=1.355}\label{2ptCorrel}
 \end{figure}

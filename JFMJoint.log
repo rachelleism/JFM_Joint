@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  26 OCT 2015 16:22
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  27 OCT 2015 21:22
 entering extended mode
  %&-line parsing enabled.
 **JFMJoint.tex
@@ -491,6 +491,9 @@ File: M09St005qcritphase0106AB.png Graphic file (type png)
 <use M09St005qcritphase0106AB.png> [9 <./galileanm0ST025expM09.png (PNG copy)> 
 <./galileanxshift06St025M09.png (PNG copy)>] [10 <./M09pointwithactuatorx2array
 1ST025.png (PNG copy)> <./M09LESandExpaxialphase.png (PNG copy)>]
+
+LaTeX Warning: Citation `sm2007' on page 11 undefined on input line 430.
+
 <M09St015qcritphase0106AB.png, id=77, 381.1038pt x 522.2712pt>
 File: M09St015qcritphase0106AB.png Graphic file (type png)
 
@@ -514,37 +517,37 @@ Overfull \hbox (6.66216pt too wide) in paragraph at lines 485--486
 [12 <./M09St015qcritphase0106AB.png>]
 
 LaTeX Warning: Reference `fig:isolevels05,fig:isolevels15,fig:isolevels' on pag
-e 13 undefined on input line 493.
+e 13 undefined on input line 494.
 
 [13 <./M09St025qcritphase0106AB.png> <./Num_Phavg_x3D_lipline_corrected.png> <.
 /Num_LnrPos_x3D_lipline_corrected.png>]
-<MachsST005x2and4liplineauto.png, id=96, 801.99625pt x 705.63625pt>
-File: MachsST005x2and4liplineauto.png Graphic file (type png)
+<Mach09ST005liplineauto.png, id=96, 799.98875pt x 706.64pt>
+File: Mach09ST005liplineauto.png Graphic file (type png)
 
-<use MachsST005x2and4liplineauto.png>
-<MachsST015x2and4liplineauto.png, id=97, 801.99625pt x 705.63625pt>
-File: MachsST015x2and4liplineauto.png Graphic file (type png)
+<use Mach09ST005liplineauto.png>
+<Mach09ST015liplineauto.png, id=97, 799.98875pt x 706.64pt>
+File: Mach09ST015liplineauto.png Graphic file (type png)
 
-<use MachsST015x2and4liplineauto.png>
-<MachsST025x2and4liplineauto.png, id=98, 801.99625pt x 705.63625pt>
-File: MachsST025x2and4liplineauto.png Graphic file (type png)
+<use Mach09ST015liplineauto.png>
+<Mach09ST025x2and4liplineauto.png, id=98, 799.98875pt x 706.64pt>
+File: Mach09ST025x2and4liplineauto.png Graphic file (type png)
 
-<use MachsST025x2and4liplineauto.png>
-<corrliplineMAchSt005.png, id=99, 801.99625pt x 705.63625pt>
-File: corrliplineMAchSt005.png Graphic file (type png)
+<use Mach09ST025x2and4liplineauto.png>
+<corrliplineMAch09St005.png, id=99, 799.98875pt x 706.64pt>
+File: corrliplineMAch09St005.png Graphic file (type png)
 
-<use corrliplineMAchSt005.png>
-<corrliplineMAchSt015.png, id=100, 801.99625pt x 705.63625pt>
-File: corrliplineMAchSt015.png Graphic file (type png)
+<use corrliplineMAch09St005.png>
+<corrliplineMAch09St015.png, id=100, 799.98875pt x 706.64pt>
+File: corrliplineMAch09St015.png Graphic file (type png)
 
-<use corrliplineMAchSt015.png>
-<corrliplineMAchSt025.png, id=101, 801.99625pt x 705.63625pt>
-File: corrliplineMAchSt025.png Graphic file (type png)
+<use corrliplineMAch09St015.png>
+<corrliplineMAch09St025.png, id=101, 799.98875pt x 706.64pt>
+File: corrliplineMAch09St025.png Graphic file (type png)
 
-<use corrliplineMAchSt025.png> [14 <./MachsST005x2and4liplineauto.png (PNG copy
-)> <./MachsST015x2and4liplineauto.png (PNG copy)> <./MachsST025x2and4liplineaut
-o.png (PNG copy)>] [15 <./corrliplineMAchSt005.png (PNG copy)> <./corrliplineMA
-chSt015.png (PNG copy)> <./corrliplineMAchSt025.png (PNG copy)>]
+<use corrliplineMAch09St025.png> [14 <./Mach09ST005liplineauto.png (PNG copy)> 
+<./Mach09ST015liplineauto.png (PNG copy)> <./Mach09ST025x2and4liplineauto.png (
+PNG copy)>] [15 <./corrliplineMAch09St005.png (PNG copy)> <./corrliplineMAch09S
+t015.png (PNG copy)> <./corrliplineMAch09St025.png (PNG copy)>]
 <M09phaseSt005fixed.png, id=114, 356.33125pt x 353.32pt>
 File: M09phaseSt005fixed.png Graphic file (type png)
 
@@ -558,42 +561,41 @@ File: M09phaseSt025.png Graphic file (type png)
  <use M09phaseSt025.png>
 
 LaTeX Warning: Reference `compresscontrol' on page 16 undefined on input line 5
-54.
+55.
 
 [16 <./M09phaseSt005fixed.png (PNG copy)> <./M09phaseSt015fixed.png (PNG copy)>
  <./M09phaseSt025.png (PNG copy)>]
-<M09M13autocorrarray1ST005.png, id=123, 1505.625pt x 1324.95pt>
-File: M09M13autocorrarray1ST005.png Graphic file (type png)
+<M09autocorrarray1ST005.png, id=123, 799.98875pt x 706.64pt>
+File: M09autocorrarray1ST005.png Graphic file (type png)
 
-<use M09M13autocorrarray1ST005.png>
-<M09M13autocorrarray1ST015.png, id=124, 1505.625pt x 1324.95pt>
-File: M09M13autocorrarray1ST015.png Graphic file (type png)
+<use M09autocorrarray1ST005.png>
+<M09autocorrarray1ST015.png, id=124, 799.98875pt x 706.64pt>
+File: M09autocorrarray1ST015.png Graphic file (type png)
 
-<use M09M13autocorrarray1ST015.png>
-<M09M13autocorrarray1ST025.png, id=125, 1505.625pt x 1324.95pt>
-File: M09M13autocorrarray1ST025.png Graphic file (type png)
+<use M09autocorrarray1ST015.png>
+<M09autocorrarray1ST025.png, id=125, 799.98875pt x 706.64pt>
+File: M09autocorrarray1ST025.png Graphic file (type png)
 
-<use M09M13autocorrarray1ST025.png> [17] [18 <./M09M13autocorrarray1ST005.png (
-PNG copy)> <./M09M13autocorrarray1ST015.png (PNG copy)> <./M09M13autocorrarray1
-ST025.png (PNG copy)>]
-<M09M13crosscorrNE.png, id=135, 801.99625pt x 705.63625pt>
-File: M09M13crosscorrNE.png Graphic file (type png)
+<use M09autocorrarray1ST025.png> [17] [18 <./M09autocorrarray1ST005.png (PNG co
+py)> <./M09autocorrarray1ST015.png (PNG copy)> <./M09autocorrarray1ST025.png (P
+NG copy)>] <M09crosscorrNE.png, id=135, 799.98875pt x 706.64pt>
+File: M09crosscorrNE.png Graphic file (type png)
 
-<use M09M13crosscorrNE.png>
-<M09M13crosscorrSt005.png, id=136, 801.99625pt x 705.63625pt>
-File: M09M13crosscorrSt005.png Graphic file (type png)
+<use M09crosscorrNE.png>
+<M09crosscorrSt005.png, id=136, 799.98875pt x 706.64pt>
+File: M09crosscorrSt005.png Graphic file (type png)
 
-<use M09M13crosscorrSt005.png>
-<M09M13crosscorrSt015.png, id=137, 1505.625pt x 1324.95pt>
-File: M09M13crosscorrSt015.png Graphic file (type png)
+<use M09crosscorrSt005.png>
+<M09crosscorrSt015.png, id=137, 799.98875pt x 706.64pt>
+File: M09crosscorrSt015.png Graphic file (type png)
 
-<use M09M13crosscorrSt015.png>
-<M09M13crosscorrSt025.png, id=138, 1505.625pt x 1324.95pt>
-File: M09M13crosscorrSt025.png Graphic file (type png)
+<use M09crosscorrSt015.png>
+<M09crosscorrSt025.png, id=138, 799.98875pt x 706.64pt>
+File: M09crosscorrSt025.png Graphic file (type png)
 
-<use M09M13crosscorrSt025.png> [19 <./M09M13crosscorrNE.png (PNG copy)> <./M09M
-13crosscorrSt005.png (PNG copy)> <./M09M13crosscorrSt015.png (PNG copy)> <./M09
-M13crosscorrSt025.png (PNG copy)>] [20]
+<use M09crosscorrSt025.png> [19 <./M09crosscorrNE.png (PNG copy)> <./M09crossco
+rrSt005.png (PNG copy)> <./M09crosscorrSt015.png (PNG copy)> <./M09crosscorrSt0
+25.png (PNG copy)>] [20]
 <figures/png/Exp/BaselineModified.png, id=150, 1300.86pt x 712.8231pt>
 File: figures/png/Exp/BaselineModified.png Graphic file (type png)
 
@@ -632,13 +634,7 @@ File: figures/png/Num/St025Modified.png Graphic file (type png)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Num_FFx1_phavg.png, id=158, 430.7292pt x 324.9741pt>
-File: Num_FFx1_phavg.png Graphic file (type png)
- <use Num_FFx1_phavg.png>
-<Num_FFx1_LnrPos.png, id=159, 431.4519pt x 271.2534pt>
-File: Num_FFx1_LnrPos.png Graphic file (type png)
-
-<use Num_FFx1_LnrPos.png> [21]
+[21]
 
 LaTeX Warning: Text page 22 contains only floats.
 
@@ -651,10 +647,17 @@ Overfull \vbox (0.68762pt too high) has occurred while \output is active []
 igures/png/Exp/St025Modified.png (PNG copy)> <./figures/png/Num/BaselineModifie
 d.png (PNG copy)> <./figures/png/Num/St005Modified.png (PNG copy)> <./figures/p
 ng/Num/St015Modified.png (PNG copy)> <./figures/png/Num/St025Modified.png (PNG 
-copy)>]
+copy)>] <Num_FFx1_phavg.png, id=165, 430.7292pt x 324.9741pt>
+File: Num_FFx1_phavg.png Graphic file (type png)
+
+<use Num_FFx1_phavg.png>
+<Num_FFx1_LnrPos.png, id=166, 431.4519pt x 271.2534pt>
+File: Num_FFx1_LnrPos.png Graphic file (type png)
+
+<use Num_FFx1_LnrPos.png>
 
 LaTeX Warning: Reference `tab:coreconvec' on page 23 undefined on input line 77
-3.
+4.
 
 <2ptcorrarray1x20dr9dNE.png, id=167, 449.68pt x 336.457pt>
 File: 2ptcorrarray1x20dr9dNE.png Graphic file (type png)
@@ -667,24 +670,23 @@ File: 2ptcorrarray1x20dr9dST005.png Graphic file (type png)
 <2ptcorrarray1x20dr9dST025.png, id=169, 449.68pt x 337.26pt>
 File: 2ptcorrarray1x20dr9dST025.png Graphic file (type png)
 
-<use 2ptcorrarray1x20dr9dST025.png>
-<MaxcorrSt005M09.png, id=170, 1505.625pt x 745.78625pt>
+<use 2ptcorrarray1x20dr9dST025.png> [23 <./Num_FFx1_phavg.png> <./Num_FFx1_LnrP
+os.png>] <MaxcorrSt005M09.png, id=178, 1505.625pt x 745.78625pt>
 File: MaxcorrSt005M09.png Graphic file (type png)
 
 <use MaxcorrSt005M09.png>
-<MaxcorrSt015M09.png, id=171, 1505.625pt x 745.78625pt>
+<MaxcorrSt015M09.png, id=179, 1505.625pt x 745.78625pt>
 File: MaxcorrSt015M09.png Graphic file (type png)
 
 <use MaxcorrSt015M09.png>
-<MaxcorrSt025M09.png, id=172, 1505.625pt x 745.78625pt>
+<MaxcorrSt025M09.png, id=180, 1505.625pt x 745.78625pt>
 File: MaxcorrSt025M09.png Graphic file (type png)
 
-<use MaxcorrSt025M09.png> [23 <./Num_FFx1_phavg.png> <./Num_FFx1_LnrPos.png>]
-[24 <./2ptcorrarray1x20dr9dNE.png (PNG copy)> <./2ptcorrarray1x20dr9dST005.png 
-(PNG copy)> <./2ptcorrarray1x20dr9dST025.png (PNG copy)>] [25 <./MaxcorrSt005M0
-9.png (PNG copy)> <./MaxcorrSt015M09.png (PNG copy)> <./MaxcorrSt025M09.png (PN
-G copy)>] (./JFMJoint.bbl [26]) AED: lastpage setting LastPage [27]
-(./JFMJoint.aux)
+<use MaxcorrSt025M09.png> [24 <./2ptcorrarray1x20dr9dNE.png (PNG copy)> <./2ptc
+orrarray1x20dr9dST005.png (PNG copy)> <./2ptcorrarray1x20dr9dST025.png (PNG cop
+y)>] [25 <./MaxcorrSt005M09.png (PNG copy)> <./MaxcorrSt015M09.png (PNG copy)> 
+<./MaxcorrSt025M09.png (PNG copy)>] (./JFMJoint.bbl [26])
+AED: lastpage setting LastPage [27] (./JFMJoint.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -693,10 +695,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4077 strings out of 256216
- 60081 string characters out of 1917071
+ 4078 strings out of 256216
+ 59969 string characters out of 1917071
  115134 words of memory out of 1500000
- 7204 multiletter control sequences out of 10000+200000
+ 7205 multiletter control sequences out of 10000+200000
  73943 words of font info for 60 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  43i,11n,45p,1455b,374s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -717,7 +719,7 @@ e1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on JFMJoint.pdf (27 pages, 16315495 bytes).
+Output written on JFMJoint.pdf (27 pages, 16006294 bytes).
 PDF statistics:
  272 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
