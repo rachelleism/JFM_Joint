@@ -489,7 +489,7 @@ While the linear superposition does produce a secondary compression peak, it is 
 
 The development and decay of the structures can be further analyzed from correlations. Looking at the autocorrelations of the points along the lipline can confirm the visual findings of the coherence of the structures in Figs. \ref{fig:isolevels05}-\ref{fig:isolevels}. 
 Therefore, Fig. \ref{coherenceMach} depicts the autocorrelations of pressure at x/D=2 and 4 on the lipline. 
-At $x/D=2$, the subsequent correlation peaks located at every excitation period increase in amplitude with increasing excitation frequency. This higher correlation value indicates a higher coherence in time at this spatial location. 
+At $x/D=2$, the subsequent correlation peaks located at every excitation period increase in amplitude with increasing excitation frequency. This higher temporal coherence maybe due to the decrease in number of actuation induced structures for a given time period for the lower excitation frequency cases. 
 Further downstream (x/D=4), the subsequent correlation peaks are lower at all excitation frequencies than the upstream location indicating lower temporal coherence at this axial position. 
 The bumpy appearance of the coherent structures (Figs. \ref{fig:isolevels05,fig:isolevels15,fig:isolevels}) implies that the structure is significantly changing each excitation period at this axial location. 
 
@@ -600,10 +600,10 @@ Figure \ref{fig:isolevels} can be used to give a visual understanding of these p
 %\end{figure*}
 \begin{figure} 
 \begin{centering}
-\subfloat[St=0.05]{\includegraphics[width=3in]{M09M13autocorrarray1ST005}} %fixed
-\subfloat[St=0.15]{\includegraphics[width=3in]{M09M13autocorrarray1ST015}} %fixed
+\subfloat[St=0.05]{\includegraphics[width=3in]{M09autocorrarray1ST005}} %fixed
+\subfloat[St=0.15]{\includegraphics[width=3in]{M09autocorrarray1ST015}} %fixed
 
-\subfloat[St=0.25]{\includegraphics[width=3in]{M09M13autocorrarray1ST025}} %fixed
+\subfloat[St=0.25]{\includegraphics[width=3in]{M09autocorrarray1ST025}} %fixed
 \end{centering}
 \caption{Auto-correlation of the near field pressure for the first array}\label{Autocorrel}
 \end{figure}
