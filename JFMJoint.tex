@@ -218,7 +218,7 @@ strategy is used to minimize errors due to factorization, linearization and
 explicit boundary condition implementation.
 \begin{figure}
 \begin{center}
-	\includegraphics[width=3.5in]{MACH09ComputationalDomain1.png}
+	\includegraphics[width=3.5in]{correctedM09grid.png}
 \caption{Computational domain}\label{fig:M09Computationaldomain}
 \end{center}
  \end{figure}
@@ -327,11 +327,12 @@ length, but modest sensitivity was evident. This is to be expected in implicit l
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Numerical Validation}
-To begin, the computations will be compared to experimental results of Crawley {\em et al.} \cite{Crawley2014}. These comparisons will prove not only that the schemes used for the LESs capture the physics of the flow but also the actuator model is able to produce structures similar to the experiments.
+To begin, the computations will be compared to experimental results of Crawley {\em et al.} \cite{Crawley2014}. These comparisons will prove not only that the schemes used for the simulations capture the physics of the flow but also the actuator model is able to produce structures similar to the experiments.
 
-The axial decay of the streamwise velocity along the centerline for the no-control case is depicted in Fig. \ref{umeanexpcompNC}. The simulation data was shifted to account for the unknown turbulence in the experimental nozzle boundary layer.
-The boundary layer of the experiments is known to be thin and turbulent \cite{kastnerj2009-1}. These simulations however have a uniform flow field applied to the first axial plane. This allows for a natural laminar boundary layer to form due to the computation of the whole nozzle. The effect of the boundary layer thickness is discussed by Speth and Gaitonde \ref{Speth2014}. The perturbations within the nozzle affect the dynamics of the jet as shown by Bogey {\em et al}. \cite{bogey2012}.
-For simplicity and grid conservation, perturbations are not employed in the nozzle/nozzle ring. Therefore, the  un-controlled jet was shifted $1.4D$.  The decay rate after the potential core are similar and match the experimental results well.
+To begin, the flow will be compared in the mean sense. The time-averaged streamwise velocity and RMS fluctuations along the centerline for the natural jet are depicted in Fig. \ref{expcompNC}. The simulation data was shifted to account for the unknown turbulence in the experimental nozzle boundary layer.
+The boundary layer of the experiments is known to be thin and turbulent \cite{kastnerj2009-1}.
+For simplicity and grid conservation, perturbations are not employed in the nozzle/nozzle ring. Instead a uniform flow field is applied to the first axial plane. This allows for a natural laminar boundary layer to form due to the computation of the whole nozzle. To account for the differences in nozzle exit consitions, the  un-controlled jet was shifted $1.4D$ downstream to match the potential core length. The effect of the boundary layer thickness is discussed by Speth and Gaitonde \ref{Speth2014}. The perturbations within the nozzle affect the dynamics of the jet as shown by Bogey {\em et al}. \cite{bogey2012}.
+ 
 \begin{figure}
 \begin{center}
 \subfloat[Mean centerline axial velocity]{\includegraphics[width=3.2in]{expcompmeancenterM0913NC}
@@ -342,31 +343,30 @@ For simplicity and grid conservation, perturbations are not employed in the nozz
 \caption{Non-dimensional mean and RMS centerline velocities for the uncontrolled jets}
 \end{center}
  \end{figure}
+The decay rates of the mean velocity after the potential core are similar and match well.
+Since no turbulence is added to the simulations within the nozzle/nozzle ring, the fluctuations start at zero (unlike the experiment). The fluctuations grow at the same rate for the experiment and the simulation throughout the potential core. Beyond the potential core, the simulations has a maximum RMS value around $x/D=8$ which corresponds to downstream of the potential core ($x/D=6$).
+%It is unclear whether the experiments have issues for this case or not...
 
-Figure \ref{upexpcompNC} exhibits the growth of the axial root mean square (RMS) fluctuations on the centerline for the no-control case with experimental results. The simulation is shifted the same distance as in Fig. \ref{umeanexpcompNC}. Since no turbulence is added to the simulations within the nozzle/nozzle ring, the fluctuations start at zero (unlike the experiment). The Mach $0.9$ jet has a maximum RMS value around $x/D=8$ which corresponds to downstream of the potential core ($x/D=6$). The supersonic jet peaks after the potential core ($x/D=7.5$) at an axial distance of 12D.
-
-Figure \ref{expcompST025} shows the centerline axial mean and fluctuating velocity for the $St=0.25$ excitation cases with experimental results by Samimy {\em et al.} \cite{sm2007-2,kearney2013intermittent}. Note that, the experimental Mach $0.9$ centerline results have an excitation frequency of $St=0.35$ while the simulation data and the experimental irrotational pressure data for this Mach number have an excitation frequency of $St=0.25$. The simulation data for Figs. \ref{expcompST025}a and b were shifted axially by $0.84D$ for the $M=0.9$ case to match the core length. The decay rate of the centerline axial velocity for the simulations matches the experimental rates similar to the no-control results.  Figure \ref{upexpcompST025} depicts the axial RMS fluctuations along the centerline for the excited case. The simulation has similar growth to the experimental results throughout the potential core. After the potential core the simulation consistently over predicts the experimental results.
+The simulations reproduce the effect of the actuation in the mean sense as shown in Figure \ref{expcompST025} for the $St=0.25$ cases. 
+The simulation data for Figs. \ref{expcompST025}a and b were shifted axially by $0.84D$ to match the core length of the experiment. The decay rate of the centerline axial velocity for the simulation matches the experimental rate similar to the no-control results.  Figure \ref{upexpcompST025} depicts the axial RMS fluctuations along the centerline for the excited case. The simulation has similar values to the experimental results throughout the axial extent shown.
 \begin{figure}
 \begin{center}
 \subfloat[Mean centerline axial velocity]{\includegraphics[width=3.2in]{expcompumeancenterM0913}
 \label{umeanexpcompST025}}
 \subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{expcompupcenterM0913}
 \label{upexpcompST025}}
-\label{expcompST025}
-\caption{Non-dimensional mean and RMS centerline velocities for the jets controlled with the axisymmetric mode at a $St=0.25$ }
+\caption{Non-dimensional mean and RMS centerline velocities for the jets controlled with the axisymmetric mode at a $St=0.25$\label{expcompST025}}
 \end{center}
  \end{figure}
 
-
-When the jet is excited with the plasma actuators using specific modes large scale structures develop in the shear layer and propagate downstream. For the axisymmetric mode, ring structures form that show up as vertically aligned vortices in cross-sectional slices as shown in Fig. \ref{galilcomp}. Figure \ref{galilcomp} depicts the phase-averaged contours of Galilean streamlines with the background colored by axial velocity for both the experiments and the computations. Galilean streamlines are formed by subtracting the convective velocity ($U_{convect}=0.65U_{jet}$) from the velocity field of the instantaneous or in this case phase-averaged snapshot. The simulations were shifted to match the potential core length of the experiments due to the unknown boundary layer properties at the exit of the nozzle extension. The effect of the boundary layer thickness and turbulence level is discussed further in Section \ref{thicknesseffects}. In Fig. \ref{galilcomp}, both experiments and computations have 3 distinct vortical rings before the end of the potential core.  Therefore, although the initial turbulence level of the boundary layer is not captured the large scale dynamics remains similar.
+When the jet is excited with the plasma actuators, large scale structures develop in the shear layer and propagate downstream. For the axisymmetric mode, ring structures form that show up as vertically aligned vortices in cross-sectional slices as shown in Fig. \ref{galilcomp}. This figure depicts the phase-averaged contours of Galilean streamlines with the background colored by axial velocity for both the experiments and the computations. Galilean streamlines are formed by subtracting the convective velocity ($U_{convect}\approx0.65U_{jet}$) from the velocity field of the instantaneous or in this case phase-averaged snapshot. The simulations were shifted to match the potential core length of the experiments due to the unknown boundary layer properties at the exit of the nozzle extension. Even with the difference in initial turbulence level, both experiments and computations have 4 distinct vortical rings before the end of the potential core signifying that the large scale structure dynamics are the same.
 \begin{figure}
 \begin{center}
 \subfloat[Experiment]{\includegraphics[width=3.2in]{galileanm0ST025expM09.png}
 	\label{galilexp}}
 \subfloat[Simulation]{\includegraphics[width=3.2in]{galileanxshift06St025M09}
 \label{galilsim}}
-\label{galilcomp}
-\caption{Phase-averaged structures highlighted by Galilean streamlines for the axisymmetric mode at a $St=0.25$}
+\caption{Phase-averaged structures highlighted by Galilean streamlines for the axisymmetric mode at a $St=0.25$\label{galilcomp}}
 \end{center}
  \end{figure}
 
