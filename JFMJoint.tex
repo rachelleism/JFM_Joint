@@ -358,7 +358,7 @@ The simulation data for Figs. \ref{expcompST025}a and b were shifted axially by 
 \begin{center}
 \subfloat[Mean centerline axial velocity]{\includegraphics[width=3.2in]{expcompumeancenterM0913}
 \label{umeanexpcompST025}}
-\subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{ex pcompupcenterM0913}
+\subfloat[Centerline axial RMS fluctuations]{\includegraphics[width=3.2in]{expcompupcenterM0913}
 \label{upexpcompST025}}
 \caption{Non-dimensional mean and RMS centerline velocities for the jets controlled with the axisymmetric mode at a $St=0.25$\label{expcompST025}}
 \end{center}
@@ -863,23 +863,17 @@ The overall directivity and potential noise source region can also be seen from 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Connecting the Acoustic Nearfield to the Farfield}
-\newpage
-\begin{itemize}
-	\item Acoustic-Hydrodynamic Decomposition
-	\begin{itemize}
-		\item Briefly explain method, cite IJA paper
-		\item Provide brief validation (copy validation from dissertation)
-		\item Show that the linear-superposition also holds for the acoustic near-field (experimental)
-		\item Show phase-averaged acoustic waveforms from the simulated jet
-	\end{itemize}
-	\item Spatial evolution of the decomposed fields
-	\begin{itemize}
-		\item Pms as a function of axial and radial position for both fields
-		\item Max correlation value as (x,r) for both fields
-		\item (x,t) plots along the first array position for the acoustic component to show the noise source region
-	\end{itemize}
-\end{itemize}
+\subsection{Connecting the Near-field to the Far-field}
+Decomposition of the near-field into its constitutive acoustic and hydrodynamic components is desired, in order to simply analysis of the responses of the individual fields. 
+The strong hydrodynamic pressure fluctuations associated directly with the passage of coherent structures largely mask the resultant weak acoustic signal. 
+As has been shown by Arndt \textit{et al.}\cite{Arndt1997},the irrotational near field of the jet comprises both the hydrodynamic footprint of the large-scale structures in the mixing layer as well as acoustic radiation. 
+The analysis of Coiffect \textit{et al.}\cite{Coiffet2006} showed that the total near field can be thought of as a linear superposition of the hydrodynamic and acoustic fields. 
+Therefore, a suitably designed linear filter can, in principle, extract the constitutive fields from the experimentally measured near field. 
+
+This was first done experimentally by Tinney \& Jordan\cite{Tinney2008}, using a linear array of microphones and a wavenumber-frequency filter in the Fourier domain to separate the irrotational near-field into subsonically- and supersonically-convecting waves. 
+In the current work a similar method is used, though the two-dimensional Fourier transform has been replaced with a spatio-temporal wavelet transform. 
+Details of the decomposition algorithm and validation in the experimental results can be found in Crawley \& Samimy\cite{crawley2014b}.
+
 \subsubsection{Far-Field Response}
 The quasi-linear interaction model which was found to govern the response of the jet to excitation in the flow-field and the irrotational near-field was in fact also found to hold for the acoustic far-field as well, at least at aft angles (where the acoustic signal is strongest and is known to correlate well with large-scale structures).
 This can be observed in Fig.~\ref{fig:farfield_phavg}, where the phase-averaged response of the jet has been plotted for the far-field signal at a polar angle of $30^\circ$.
@@ -900,6 +894,26 @@ From the phase-averaged waveforms alone it is not clear whether this breakdown i
 The phase-averaged waveforms were also investigated at polar angles of $60^\circ$ and $90^\circ$; however a clear waveform was not identifiable over the statistical uncertainty inherent in the phase-averaging process (likely due to the superdirective character of the acoustic radiation \cite{Crighton1990}, which renders the amplitude at sideline angles too low to be detectable).
 
 \subsubsection{Correlating the Near-Field and Far-field}
+Similar to the analysis of the numerical results, two-point linear correlations were computed between the near-field microphones and the far-field (in this case, from the far-field microphone at $30^{\circ$}), and analyzed in spatio-temporal domain along a single microphone array position.
+Correlations computed using the full near-field pressure are shown in 
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r1D.png}
+		\caption{$r/D = 1.2$}
+		\label{fig:ch3_fullxcorr_r1D}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r4D.png}
+		\caption{$r/D = 4.2$}
+		\label{fig:ch3_fullxcorr_r4D}
+	\end{subfigure}
+	\caption{Normalized two-point correlations for the natural jet between the near field and the far field at $30^\circ$ for two microphone array positions.}
+	\label{fig:ch3_fullxcorr}
+\end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
