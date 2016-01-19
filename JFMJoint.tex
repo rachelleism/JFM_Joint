@@ -21,7 +21,17 @@
 \providecommand{\tabularnewline}{\\}
 %% A simple dot to overcome graphicx limitations
 \newcommand{\lyxdot}{.}
+
+
+% Macros for consistent formatting
+\newcommand*{\fig}[1]{Fig.~\ref{#1}}
+\newcommand*{\tab}[1]{Table~\ref{#1}}
+\newcommand*{\eq}[1]{Eqn.~\ref{#1}}
+\newcommand*{\sect}[1]{\S\ref{#1}}
 \newcommand*{\etal}{\textit{et~al}.\ }
+\newcommand*{\ie}{\textit{i}.\textit{e}.\ }
+\newcommand*{\re}{\mathit{Re}}
+\newcommand*{\st}{\mathit{St}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
@@ -894,26 +904,57 @@ From the phase-averaged waveforms alone it is not clear whether this breakdown i
 The phase-averaged waveforms were also investigated at polar angles of $60^\circ$ and $90^\circ$; however a clear waveform was not identifiable over the statistical uncertainty inherent in the phase-averaging process (likely due to the superdirective character of the acoustic radiation \cite{Crighton1990}, which renders the amplitude at sideline angles too low to be detectable).
 
 \subsubsection{Correlating the Near-Field and Far-field}
-Similar to the analysis of the numerical results, two-point linear correlations were computed between the near-field microphones and the far-field (in this case, from the far-field microphone at $30^{\circ$}), and analyzed in spatio-temporal domain along a single microphone array position.
-Correlations computed using the full near-field pressure are shown in 
+Similar to the analysis of the numerical results, two-point linear correlations were computed between the near-field microphones and the far-field (in this case, from the far-field microphone at $30^{\circ}$), and analyzed in spatio-temporal domain along a single microphone array position.
+Correlations computed using the full near-field pressure are shown in \fig{fig:exp_fullxcorr}, where the two-point correlations between the near-field and the far-field at $30^\circ$ for two microphone array positions (starting at $x/D = 1, r/D = 1.20$ and $x/D = 1, r/D = 4.20$) have been plotted.
+Near the jet shear layer, four distinct correlation regions can be observed. 
+The first group of correlation regions are noticeable beginning at the most upstream microphone and reach their peak values around $5 < x/D < 10$, decaying significantly beyond that.
+The slopes of these regions indicate propagation velocities noticeably below the sonic velocity; in the upstream region, they roughly match with the measured convective velocity of the large-scale structures ($U_c \simeq 0.7 U_j$, and decelerate downstream.
+Conversely, the correlation regions dominant in the downstream region exhibit propagation velocities that match well with the ambient speed of sound. 
+
+As the microphone array is moved radially outwards, the upstream correlation regions quickly decay to negligible values and all observable correlation regions begin to match the expected time-of-arrival for sonically-traveling waves. 
+The distinctly different propagation velocities and axial and radial evolutions of the two pairs of correlation regions indicate that these correspond to different physical phenomena.
+The upstream correlation regions observed near the jet shear layer are associated with the large-scale structures themselves, rather than acoustic phenomena, and their presence suggests a linear transfer of energy from the hydrodynamic to the acoustic field. 
+The two-point correlations in the excited jet cases show similar behavior, albeit with enhanced correlation levels particularly for the large-scale structure related regions. 
 \begin{figure}
-	\centering
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r1D.png}
-		\caption{$r/D = 1.2$}
-		\label{fig:ch3_fullxcorr_r1D}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r4D.png}
-		\caption{$r/D = 4.2$}
-		\label{fig:ch3_fullxcorr_r4D}
-	\end{subfigure}
-	\caption{Normalized two-point correlations for the natural jet between the near field and the far field at $30^\circ$ for two microphone array positions.}
-	\label{fig:ch3_fullxcorr}
+	\begin{centering}
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/Exp_St000_xcorr_r1D.png}}		
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/Exp_St000_xcorr_r4D.png}}		
+	\end{centering}
+	\caption{Normalized two-point correlations from the experimental results between the near field and the far field at $30^\circ$ for (a) $r/D = 1.2$ and (b) $r/D = 4.2$.}
+	\label{fig:exp_fullxcorr}
 \end{figure}
 
+Therefore, in order to identify the source region of the acoustic fluctuations, the acoustic component of the near-field needs to be considered alone, rather than the full irrotational near-field pressure (\fig{fig:exp_St000_acoustic}). 
+Gone entirely now are the correlation regions with subsonic propagation velocities, even at the closest microphone array positions.
+Instead, a single positive correlation region corresponding to sonically-propagating waves exists over the entire domain with significantly enhanced correlation over the full field results. 
+It should be noted that the results found here for the acoustic component along the first microphone array position are nearly identical to those for the full field response at the further radial array positions (\fig{fig:exp_fullxcorr}), which were dominated by acoustic, rather than hydrodynamic, energy.
+\begin{figure}
+	\centering
+	\includegraphics[width=4in]{figures/png/Exp/exp_St000_xcorr_acoustic.png}
+	\caption{Normalized two-point correlations for the experimental jet between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$. }
+	\label{fig:exp_St000_acoustic}
+\end{figure}
+
+
+Similar behavior is observed between the natural jet and the excited cases in \fig{fig:exp_xcorrOA}; note that due to numerical discrepancies at the domain boundaries (see Torrence \& Campo \cite{Torrence1998}), the correlation values have been truncated at the most upstream and downstream microphones.
+For the impulsively-excited jet, nearly identical correlation regions are observed between the excited and natural jet; in the periodically-excited jet continuous oscillations occur throughout time due to the similarity of continuously-generated large-scale structures and resultant acoustic radiation.
+In the upstream region of the jet, the peaks of the positive correlation region match $\tau_a$ nearly exactly. 
+In the downstream region, $\tau_a$ begins to increasingly over-predict the time lag for the maximum correlation. 
+On the other hand, $\tau_s$ tracks the time lags for the peak correlation consistently over the downstream region, but not the upstream region. 
+The results found here appear to indicate that the dominant acoustic radiation reaching the far-field aft angles is being generated over an extended region of the jet mixing layer, roughly $x/D \leq 4$, which is just upstream of the time-averaged end of the potential core in the natural jet.
+This is not too dissimilar from the findings of other researchers, who have suggested that the acoustic source region lies just downstream of the end of the potential core \cite{Hileman2005}.
+It should be clarified here though, that the interpretation of these results is not meant to suggest that only trivial levels of noise are generated outside of this apparent noise source region, just that the dominant radiation is produced in this region in a time-averaged sense.
+\begin{figure}
+	\begin{centering}
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/St000_r120_ff30xcor_xcor_oa.png}}	
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/St005_r120_ff30xcor_xcor_oa.png}}
+		
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/St025_r120_ff30xcor_xcor_oa.png}}
+		\subfloat{\includegraphics[width=0.5\linewidth]{figures/png/Exp/St035_r120_ff30xcor_xcor_oa.png}}	
+	\end{centering}
+	\caption{Normalized two-point correlations between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$ for the natural jet (a), $St_{DF} = 0.05$ (b), $St_{DF} = 0.25$ (c) and $St_{DF} = 0.35$ (d).}
+	\label{fig:exp_xcorrOA}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
