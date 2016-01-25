@@ -6,3 +6,8 @@ ehthumbs.db
 *.aux
 *.blg
 *.glo
+
+# Matlab
+*.m
+*.fig
+*.mat
