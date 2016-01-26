@@ -749,7 +749,21 @@ The next step is to get similar results to those obtained with the phase--averag
     \tilde{p}^n_{m}\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} p_{m}\left(\xi_{i}\right),
 \end{equation}
 where the superscript $n$ and subscript $m$ stand for the position of the reference signal and of any other signal of the array, respectively, the subscript $s$ stands for the scale, $N^n$ is the number of detected events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{l_W}{2}, \tilde{t}_{i} + \frac{l_w}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
-The conditional--average can be performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, and so $n = m$: this is the auto--conditioning. By performing the conditional--average of a signal $p_{m}$ by using the set of times of a signal $p_{n}$, and so $n \neq m$: it is then called cross--conditioning. The auto/cross--conditioning are presented on figure  \ref{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$.
+A first analysis using equation \ref{eqn:ensembleAverage} was performed on the microphones line--array. A second analysis was then performed by doing the conditional--average only with peaks with positive/negative value in the real domain (pressure).
+\begin{figure}
+\begin{centering}
+\subfloat[]{\includegraphics[width=2.1in]{figures/eps/negativePeak}}
+\subfloat[]{\includegraphics[width=2.1in]{figures/eps/positivePeak}}
+\subfloat[]{\includegraphics[width=2.1in]{figures/eps/compPeaks}}
+\end{centering}
+\caption{Auto--conditioning signatures of the signal at $x/D = 3$, $(a)$ with only negative peaks, $(b)$ with only positive peaks, $(c)$ comparison between the signatures}\label{compPeaks}
+\end{figure}
+
+\begin{equation} \label{condAvgSign}
+\tilde{p}_{m}^n\left( W \right) = \left< p_{m,\theta} | P_{k} \right>_{\tilde{\tau}^n_{s\theta}} = \frac{1}{N^n\cdot N_{\theta}} \sum^{N_{\theta}}_{j = 1}\sum^{N^n}_{i = 1} sign\left( p_{n,j} % \left(\tilde{t}_{i,j}\right)\right)p_{m,j}\left(\xi_{i,j}\right),
+\end{equation}
+
+When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, and so $n = m$: this is the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$: it is then called cross--conditioning. The auto/cross--conditioning are presented on figure  \ref{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$.
  \begin{figure}[!ht]
 \centering
     \includegraphics[width=1\textwidth]{figures/pdf/condNcond}
