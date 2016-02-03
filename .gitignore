@@ -6,6 +6,8 @@ ehthumbs.db
 *.aux
 *.blg
 *.glo
+*.pdf
+*.synctex.gz
 
 # Matlab
 *.m
